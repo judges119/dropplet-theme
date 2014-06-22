@@ -11,8 +11,12 @@ body {
 }
 
 a {
+	color: #2a6496;
+	text-decoration: none;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	color: #333333;
-	text-decoration:none;
 }
 
 a:hover, a:focus {
@@ -40,6 +44,7 @@ p, ul {
 }
 
 .button {
+	color: #333333;
 	display: inline-block;
 	padding: 12px 12px;
 	margin-top: 20px;
